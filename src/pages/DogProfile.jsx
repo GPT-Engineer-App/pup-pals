@@ -31,15 +31,11 @@ const DogProfile = () => {
     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt="6rem" m={4}>
       <Box>
         <SimpleGrid columns={2} spacing={5} mb={5}>
-          <Box position="relative" textAlign="center">
+          <Box textAlign="center">
             <Image src="https://via.placeholder.com/100" alt="Placeholder image" height="100px" width="100px" />
-            <Input type="file" accept="image/*" size="lg" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)" />
-            <Icon as={FaPlus} color="gray.500" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)" />
           </Box>
-          <Box position="relative" textAlign="center">
+          <Box textAlign="center">
             <Image src="https://via.placeholder.com/100" alt="Placeholder image" height="100px" width="100px" />
-            <Input type="file" accept="image/*" size="lg" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)" />
-            <Icon as={FaPlus} color="gray.500" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)" />
           </Box>
         </SimpleGrid>
       </Box>
