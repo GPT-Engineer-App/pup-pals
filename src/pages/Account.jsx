@@ -3,10 +3,8 @@ import { Box, Flex, Tab, TabList, TabPanel, TabPanels, Tabs, Text, FormControl, 
 
 function Account() {
   return (
-    <Flex>
-      {" "}
-      // Increased the margin-top to provide more space at the top of the page
-      <Box width="250px" borderRight="1px" borderColor="gray.200" mb={8}>
+    <Flex align="start" p={8}>
+      <Box width="250px" borderRight="1px" borderColor="gray.200">
         <Tabs orientation="vertical" align="start" mb={4}>
           <TabList align="start">
             <Tab>Details</Tab>
@@ -22,19 +20,19 @@ function Account() {
           <TabPanels>
             <TabPanel>
               <form>
-                <FormControl id="details-first-name" mt={4} isRequired>
+                <FormControl id="details-first-name" isRequired>
                   <FormLabel>First Name</FormLabel>
                   <Input placeholder="First Name" />
                 </FormControl>
-                <FormControl id="details-last-name" mt={4} isRequired>
+                <FormControl id="details-last-name" isRequired>
                   <FormLabel>Last Name</FormLabel>
                   <Input placeholder="Last Name" />
                 </FormControl>
-                <FormControl id="details-email" mt={4} isRequired>
+                <FormControl id="details-email" isRequired>
                   <FormLabel>Email</FormLabel>
                   <Input type="email" placeholder="email@example.com" />
                 </FormControl>
-                <FormControl id="details-phone-number" mt={4} isRequired>
+                <FormControl id="details-phone-number" isRequired>
                   <FormLabel>Phone Number</FormLabel>
                   <Input type="tel" placeholder="+1234567890" />
                 </FormControl>
