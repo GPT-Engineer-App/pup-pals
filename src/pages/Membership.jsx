@@ -6,12 +6,18 @@ const Membership = () => {
     <Box pt={36} p={4}>
       <SimpleGrid columns={2} spacing={10}>
         <Box borderWidth="1px" borderRadius="lg" overflow="hidden" p={6}>
+          <Text fontSize="xl" fontWeight="bold" mb={2}>
+            0 AED
+          </Text>
           <Heading as="h3" size="lg" mb={4}>
             Basic
           </Heading>
           <Text>Details of basic membership...</Text>
         </Box>
         <Box borderWidth="1px" borderRadius="lg" overflow="hidden" p={6}>
+          <Text fontSize="xl" fontWeight="bold" mb={2}>
+            150 AED
+          </Text>
           <Heading as="h3" size="lg" mb={4}>
             Premium
           </Heading>
