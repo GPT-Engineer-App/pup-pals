@@ -56,12 +56,6 @@ const Navigation = () => {
       </Flex>
 
       <Box display={{ sm: "block", md: "block" }} mt={{ base: 4, md: 0 }} ml="auto">
-        <Link as={RouterLink} to="/instagram" px={2} mr={4}>
-          <Icon as={FaInstagram} />
-        </Link>
-        <Link as={RouterLink} to="/close" px={2}>
-          <Icon as={FaTimes} />
-        </Link>
         <Link as={RouterLink} to="/" px={2}>
           Home
         </Link>
