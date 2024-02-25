@@ -1,5 +1,6 @@
 import React from "react";
-import { Box, Container, Heading, SimpleGrid, Text, Image, Stack, Badge, Button, useColorModeValue, Flex } from "@chakra-ui/react";
+import { Box, Container, Heading, SimpleGrid, Text, Image, Stack, Badge, Button, useColorModeValue } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 import { FaPaw } from "react-icons/fa";
 
 // Sample data for dog profiles
@@ -131,7 +132,7 @@ const Index = () => {
             <Text fontSize="lg" mb={4}>
               Connect with dog lovers who can take care of your pup while you're away. Sign up and create a profile for your dog.
             </Text>
-            <Button colorScheme="teal" size="lg">
+            <Button as={Link} to="/owner-signup" colorScheme="teal" size="lg">
               Sign Up as Owner
             </Button>
           </Box>
