@@ -1,5 +1,6 @@
 import React from "react";
-import { Box, Image, SimpleGrid, Text, VStack, Heading, Input } from "@chakra-ui/react";
+import { Box, Image, SimpleGrid, Text, VStack, Heading, Input, Icon } from "@chakra-ui/react";
+import { FaPlus } from "react-icons/fa";
 import { useParams } from "react-router-dom";
 
 const buddyImageUrl = "https://images.unsplash.com/photo-1612774412771-005ed8e861d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxnb2xkZW4lMjByZXRyaWV2ZXJ8ZW58MHx8fHwxNzA4ODg0NTE3fDA&ixlib=rb-4.0.3&q=80&w=1080";
@@ -30,13 +31,15 @@ const DogProfile = () => {
     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt="6rem" m={4}>
       <Box>
         <SimpleGrid columns={2} spacing={5} mb={5}>
-          <Box>
+          <Box position="relative" textAlign="center">
             <Image src="https://via.placeholder.com/100" alt="Placeholder image" height="100px" width="100px" />
-            <Input type="file" accept="image/*" />
+            <Input type="file" accept="image/*" size="lg" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)" />
+            <Icon as={FaPlus} color="gray.500" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)" />
           </Box>
-          <Box>
+          <Box position="relative" textAlign="center">
             <Image src="https://via.placeholder.com/100" alt="Placeholder image" height="100px" width="100px" />
-            <Input type="file" accept="image/*" />
+            <Input type="file" accept="image/*" size="lg" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)" />
+            <Icon as={FaPlus} color="gray.500" position="absolute" top="50%" left="50%" transform="translate(-50%, -50%)" />
           </Box>
         </SimpleGrid>
       </Box>
