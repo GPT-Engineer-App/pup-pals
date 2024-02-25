@@ -131,6 +131,9 @@ const Index = () => {
             <Text fontSize="lg" mb={4}>
               Connect with dog lovers who can take care of your pup while you're away. Sign up and create a profile for your dog.
             </Text>
+            <Button colorScheme="teal" size="lg">
+              Sign Up as Owner
+            </Button>
           </Box>
         </Box>
         <Box>
