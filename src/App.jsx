@@ -9,6 +9,7 @@ import About from "./pages/About.jsx";
 import Footer from "./components/Footer.jsx";
 import BackgroundPattern from "./components/BackgroundPattern.jsx";
 import Membership from "./pages/Membership.jsx";
+import FAQ from "./pages/FAQ.jsx";
 import Account from "./pages/Account.jsx";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
           <Route path="/pal-signup" element={<PalSignUp />} />
           <Route path="/dog-profile/:id" element={<DogProfile />} />
           <Route path="/membership" element={<Membership />} />
+          <Route path="/faq" element={<FAQ />} />
           <Route path="/account" element={<Account />} />
         </Routes>
         <Footer />
