@@ -9,9 +9,17 @@ const OwnerSignUp = () => {
       </Heading>
       <Box borderWidth="1px" rounded="lg" overflow="hidden" p={6}>
         <form>
-          <FormControl id="owner-name" isRequired>
-            <FormLabel>Full Name</FormLabel>
-            <Input placeholder="John Doe" />
+          <FormControl id="owner-first-name" isRequired>
+            <FormLabel>First Name</FormLabel>
+            <Input placeholder="John" />
+          </FormControl>
+          <FormControl id="owner-last-name" mt={4} isRequired>
+            <FormLabel>Last Name</FormLabel>
+            <Input placeholder="Doe" />
+          </FormControl>
+          <FormControl id="owner-phone-number" mt={4} isRequired>
+            <FormLabel>Phone Number</FormLabel>
+            <Input type="tel" placeholder="+1234567890" />
           </FormControl>
           <FormControl id="owner-email" mt={4} isRequired>
             <FormLabel>Email address</FormLabel>
