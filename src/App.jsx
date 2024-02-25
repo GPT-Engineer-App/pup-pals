@@ -11,6 +11,7 @@ import BackgroundPattern from "./components/BackgroundPattern.jsx";
 import Membership from "./pages/Membership.jsx";
 import FAQ from "./pages/FAQ.jsx";
 import Account from "./pages/Account.jsx";
+import Pupology from "./pages/Pupology.jsx";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/dog-profile/:id" element={<DogProfile />} />
           <Route path="/membership" element={<Membership />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="/pupology" element={<Pupology />} />
           <Route path="/account" element={<Account />} />
         </Routes>
         <Footer />
