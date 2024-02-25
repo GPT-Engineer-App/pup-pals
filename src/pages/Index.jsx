@@ -118,7 +118,7 @@ const Index = () => {
         <Heading as="h2" size="xl" mb={4} textAlign="center">
           How it Works
         </Heading>
-        <SimpleGrid columns={{ base: 1, md: 5 }} spacing={10}>
+        <SimpleGrid columns={{ base: 1, md: 5 }} spacing={10} alignItems="center">
           <Box textAlign="center">
             <Heading as="h3" size="lg" mb={2}>
               Sign up for Free
