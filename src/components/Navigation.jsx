@@ -13,7 +13,7 @@ const Navigation = () => {
   const navigate = useNavigate();
 
   return (
-    <Flex as="nav" align="center" justify="space-between" wrap="wrap" padding="1.5rem" bg="teal.500" color="white">
+    <Flex as="nav" align="center" justify="space-between" wrap="wrap" padding="1.5rem" bg="teal.500" color="white" position="fixed" w="100%" top={0} zIndex={1000}>
       <>
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />
