@@ -118,9 +118,21 @@ const Index = () => {
         <Heading as="h2" size="xl" mb={4}>
           How it Works
         </Heading>
-        <Text fontSize="lg" mb={4}>
-          Discover your perfect pup pal in just a few easy steps. Browse through our profiles, select your favorite, and arrange a time to meet your new furry friend.
-        </Text>
+        <Heading as="h3" size="lg" mb={2}>
+          Sign up for Free
+        </Heading>
+        <Heading as="h3" size="lg" mb={2}>
+          Browse Profiles
+        </Heading>
+        <Heading as="h3" size="lg" mb={2}>
+          Select Your Favorite
+        </Heading>
+        <Heading as="h3" size="lg" mb={2}>
+          Message
+        </Heading>
+        <Heading as="h3" size="lg" mb={2}>
+          Meet Up
+        </Heading>
       </Box>
       <SimpleGrid columns={2} spacing={10} as="section" mb={12}>
         <Box>
