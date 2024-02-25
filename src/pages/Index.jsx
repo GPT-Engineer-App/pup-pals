@@ -119,7 +119,18 @@ const Index = () => {
           Discover your perfect pup pal in just a few easy steps. Browse through our profiles, select your favorite, and arrange a time to meet your new furry friend.
         </Text>
       </Box>
-      <Heading as="h1" mb={12}>
+      <Box as="section" mb={12}>
+        <Heading as="h2" size="xl" mb={4}>
+          Sign Up
+        </Heading>
+        <Text fontSize="lg" mb={4}>
+          Join our community and start borrowing pups today. Sign up to create an account and get started!
+        </Text>
+        <Button colorScheme="teal" size="lg">
+          Sign Up Now
+        </Button>
+      </Box>
+      <Heading as="h1" mt={12} mb={12}>
         Pup Profiles
       </Heading>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
