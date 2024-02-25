@@ -8,7 +8,7 @@ function Account() {
         <Tabs orientation="vertical" align="start">
           <TabList align="start">
             <Tab>Details</Tab>
-            <Tab>Security</Tab>
+            <Tab>Password</Tab>
             <Tab>Notification Settings</Tab>
             <Tab>My Membership</Tab>
             <Tab>Payment Details</Tab>
