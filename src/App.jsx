@@ -1,6 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Index from "./pages/Index.jsx";
 import OwnerSignUp from "./pages/OwnerSignUp.jsx";
+import PalSignUp from "./pages/PalSignUp.jsx";
 
 import Navigation from "./components/Navigation.jsx";
 import About from "./pages/About.jsx";
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
         <Route path="/owner-signup" element={<OwnerSignUp />} />
+        <Route path="/pal-signup" element={<PalSignUp />} />
       </Routes>
       <Footer />
     </Router>

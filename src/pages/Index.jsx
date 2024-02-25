@@ -147,7 +147,7 @@ const Index = () => {
           <Text fontSize="lg" mb={4}>
             Looking to spend time with a pup? Sign up as a friend and start borrowing pups from our community of owners.
           </Text>
-          <Button colorScheme="teal" size="lg">
+          <Button as={Link} to="/pal-signup" colorScheme="teal" size="lg">
             Sign Up as Pal
           </Button>
         </Box>
