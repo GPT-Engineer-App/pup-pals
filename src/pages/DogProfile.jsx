@@ -19,6 +19,12 @@ const DogProfile = () => {
       <Box borderWidth="1px" borderRadius="lg" overflow="hidden" w={{ md: "50%" }}>
         <Image src={buddyImageUrl} alt={`Picture of Buddy`} />
       </Box>
+      <Box textAlign="center" mt={{ base: 6, md: 0 }} w="full">
+        <Link href="https://maps.google.com/?q=86+Blackheath+Road,+Greenwich+SE10+8DA,+United+Kingdom" isExternal fontSize="sm">
+          86 Blackheath Road, Greenwich SE10 8DA, United Kingdom
+        </Link>
+        <iframe width="100%" height="250" frameBorder="0" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?q=86+Blackheath+Road,+Greenwich+SE10+8DA,+United+Kingdom&t=&z=13&ie=UTF8&iwloc=&output=embed" title="Google Maps" aria-label="Google Maps"></iframe>
+      </Box>
       <VStack spacing={6} align="left" mt={{ base: 6, md: 0 }} ml={{ md: 6 }} w="full">
         <Heading as="h2" size="xl">
           About Pup
