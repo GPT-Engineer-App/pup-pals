@@ -4,6 +4,9 @@ import { Box, Container, Heading, FormControl, FormLabel, Input, Button } from "
 const OwnerSignUp = () => {
   return (
     <Container maxW="lg" py={12} pt="6rem">
+      <Box display="flex" justifyContent="center" mb={6}>
+        <Image borderRadius="lg" src="https://via.placeholder.com/150?text=Dog+Sketch" alt="Sketch of a dog" />
+      </Box>
       <Heading as="h2" size="xl" mb={6}>
         Owner Sign Up
       </Heading>
