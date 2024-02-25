@@ -8,6 +8,7 @@ import About from "./pages/About.jsx";
 import Footer from "./components/Footer.jsx";
 import BackgroundPattern from "./components/BackgroundPattern.jsx";
 import Membership from "./pages/Membership.jsx";
+import Account from "./pages/Account.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/pal-signup" element={<PalSignUp />} />
           <Route path="/dog-profile/:id" element={<DogProfile />} />
           <Route path="/membership" element={<Membership />} />
+          <Route path="/account" element={<Account />} />
         </Routes>
         <Footer />
       </Router>

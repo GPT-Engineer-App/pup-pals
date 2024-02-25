@@ -28,7 +28,7 @@ const Navigation = () => {
               <Button colorScheme="blue" w="full" mb={3} onClick={onClose}>
                 Close
               </Button>
-              <Button variant="ghost" w="full" mb={3}>
+              <Button variant="ghost" w="full" mb={3} as={RouterLink} to="/account">
                 Log In
               </Button>
 
