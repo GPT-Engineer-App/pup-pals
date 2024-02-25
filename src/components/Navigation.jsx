@@ -15,8 +15,11 @@ const Navigation = () => {
         <Link as={RouterLink} to="/" px={2}>
           Home
         </Link>
-        <Link as={RouterLink} to="/about" px={2}>
+        <Link as={RouterLink} to="/about" px={2} mr={4}>
           About
+        </Link>
+        <Link as={RouterLink} to="/login" px={2}>
+          Log In
         </Link>
       </Box>
     </Flex>
