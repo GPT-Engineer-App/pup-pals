@@ -28,7 +28,15 @@ const Navigation = () => {
               <Button colorScheme="blue" w="full" mb={3} onClick={onClose}>
                 Close
               </Button>
-              <Button variant="ghost" w="full" mb={3} as={RouterLink} to="/account">
+              <Button
+                variant="ghost"
+                w="full"
+                mb={3}
+                onClick={() => {
+                  onClose();
+                  navigate("/account");
+                }}
+              >
                 Log In
               </Button>
 
