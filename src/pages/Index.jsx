@@ -154,12 +154,12 @@ const Index = () => {
       <SimpleGrid columns={2} spacing={10} as="section" mb={12}>
         <Box>
           <Box textAlign="center">
-            <Heading as="h2" size="xl" mb={4} textAlign="center">
-              Owner Sign Up
-            </Heading>
             <Box flexShrink={0} mb={4} display="flex" justifyContent="center">
               <Image borderRadius="lg" width={{ md: "40" }} src={"https://via.placeholder.com/150?text=Owner+And+Dog+Cartoon"} alt={"Cartoon image of a dog with its owner"} />
             </Box>
+            <Heading as="h2" size="xl" mb={4} textAlign="center">
+              Owner Sign Up
+            </Heading>
             <Text fontSize="lg" mb={4}>
               Connect with dog lovers who can take care of your pup while you're away. Sign up and create a profile for your dog.
             </Text>
@@ -169,12 +169,12 @@ const Index = () => {
           </Box>
         </Box>
         <Box textAlign="center">
-          <Heading as="h2" size="xl" mb={4} textAlign="center">
-            Pal Sign Up
-          </Heading>
           <Box flexShrink={0} mb={4} display="flex" justifyContent="center">
             <Image borderRadius="lg" width={{ md: "40" }} src={"https://via.placeholder.com/150"} alt={"People"} />
           </Box>
+          <Heading as="h2" size="xl" mb={4} textAlign="center">
+            Pal Sign Up
+          </Heading>
           <Text fontSize="lg" mb={4}>
             Looking to spend time with a pup? Sign up as a friend and start borrowing pups from our community of owners.
           </Text>
