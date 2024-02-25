@@ -31,6 +31,9 @@ const DogProfile = () => {
     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt="6rem" m={4}>
       <Box textAlign="center" mb={5}>
         <Image src={buddyImageUrl} alt="Buddy profile image" height="300px" width="300px" borderRadius="full" />
+        <Text fontSize="2xl" fontWeight="extrabold">
+          {dogDetails.name}
+        </Text>
       </Box>
       <Box>
         <SimpleGrid columns={2} spacing={5} mb={5}>
