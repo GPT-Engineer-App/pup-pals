@@ -114,8 +114,8 @@ const DogCard = ({ dog }) => {
 const Index = () => {
   return (
     <Container maxW={"7xl"} p={12}>
-      <Box as="section" mt={12} mb={12}>
-        <Heading as="h2" size="xl" mb={4}>
+      <Box as="section" mt={12} mb={12} textAlign="center">
+        <Heading as="h2" size="xl" mb={4} textAlign="center">
           How it Works
         </Heading>
         <SimpleGrid columns={{ base: 1, md: 5 }} spacing={10}>
