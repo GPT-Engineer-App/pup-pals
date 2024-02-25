@@ -23,11 +23,16 @@ const Navigation = () => {
               </FormControl>
             </ModalBody>
 
-            <ModalFooter>
-              <Button colorScheme="blue" mr={3} onClick={onClose}>
+            <ModalFooter flexDirection="column" alignItems="center">
+              <Button colorScheme="blue" w="full" mb={3} onClick={onClose}>
                 Close
               </Button>
-              <Button variant="ghost">Log In</Button>
+              <Button variant="ghost" w="full" mb={3}>
+                Log In
+              </Button>
+              <Button w="full" colorScheme="blackAlpha">
+                Sign in with Apple
+              </Button>
             </ModalFooter>
           </ModalContent>
         </Modal>
