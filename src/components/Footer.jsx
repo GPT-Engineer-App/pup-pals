@@ -8,6 +8,12 @@ const Footer = () => {
       <Text fontSize="sm" mr={4}>
         © 2024 Pup Pals
       </Text>
+      <Link as={RouterLink} to="/about" mr={4}>
+        About
+      </Link>
+      <Link as={RouterLink} to="/contact" mr={4}>
+        Contact
+      </Link>
       <Link as={RouterLink} to="/terms" mr={4}>
         Terms & Conditions
       </Link>
@@ -18,12 +24,6 @@ const Footer = () => {
         Cookie Policy
       </Link>
       <Link as={RouterLink} to="/press" mr={4}>
-        Press & Media
-      </Link>
-      <Link as={RouterLink} to="/about" mr={4}>
-        About
-      </Link>
-      <Link as={RouterLink} to="/contact">
         Contact
       </Link>
     </Flex>
