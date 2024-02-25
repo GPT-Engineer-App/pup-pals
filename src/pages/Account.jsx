@@ -4,7 +4,7 @@ import { Box, Flex, Tab, TabList, TabPanel, TabPanels, Tabs, Text, FormControl, 
 function Account() {
   return (
     <Flex>
-      <Box width="250px" borderRight="1px" borderColor="gray.200">
+      <Box width="250px" borderRight="1px" borderColor="gray.200" mb={8}>
         <Tabs orientation="vertical" align="start" mb={4}>
           <TabList align="start">
             <Tab>Details</Tab>
