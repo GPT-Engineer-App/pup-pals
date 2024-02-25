@@ -3,7 +3,7 @@ import { Box, Container, Heading, FormControl, FormLabel, Input, Button } from "
 
 const OwnerSignUp = () => {
   return (
-    <Container maxW="lg" py={12}>
+    <Container maxW="lg" py={12} display="flex" flexDirection="column" alignItems="center">
       <Heading as="h2" size="xl" mb={6}>
         Owner Sign Up
       </Heading>
