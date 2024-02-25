@@ -42,7 +42,19 @@ function Account() {
               </form>
             </TabPanel>
             <TabPanel>
-              <Text fontSize="2xl">Security Content</Text>
+              <form>
+                <FormControl id="password-current" isRequired>
+                  <FormLabel>Current Password</FormLabel>
+                  <Input type="password" placeholder="Current Password" />
+                </FormControl>
+                <FormControl id="password-new" mt={4} isRequired>
+                  <FormLabel>New Password</FormLabel>
+                  <Input type="password" placeholder="New Password" />
+                </FormControl>
+                <Button width="full" mt={4} colorScheme="blue" type="submit">
+                  Change Password
+                </Button>
+              </form>
             </TabPanel>
             <TabPanel>
               <Text fontSize="2xl">Notification Settings Content</Text>
