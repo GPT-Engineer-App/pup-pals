@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Image, Flex, Text, VStack, Heading } from "@chakra-ui/react";
+import { Box, Image, Flex, Text, VStack, Heading, Link } from "@chakra-ui/react";
 import { useParams } from "react-router-dom";
 
 const buddyImageUrl = "https://images.unsplash.com/photo-1612774412771-005ed8e861d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxnb2xkZW4lMjByZXRyaWV2ZXJ8ZW58MHx8fHwxNzA4ODg0NTE3fDA&ixlib=rb-4.0.3&q=80&w=1080";
@@ -35,7 +35,9 @@ const DogProfile = () => {
         <Text fontSize="lg">Availability: {dogDetails.availability}</Text>
       </VStack>
       <Box textAlign="center" mt={{ base: 6, md: 0 }} w="full">
-        <Text fontSize="sm">1234 Pup St, Dogtown, DT 01234</Text>
+        <Link href="https://maps.google.com/?q=1234+Pup+St,+Dogtown,+DT+01234" isExternal fontSize="sm">
+          1234 Pup St, Dogtown, DT 01234
+        </Link>
         <iframe width="100%" height="250" frameBorder="0" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?q=1234%20Pup%20St,%20Dogtown,%20DT%2001234&t=&z=13&ie=UTF8&iwloc=&output=embed" title="Google Maps" aria-label="Google Maps"></iframe>
       </Box>
     </Flex>
