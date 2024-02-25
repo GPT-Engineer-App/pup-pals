@@ -4,7 +4,7 @@ import { FaApple } from "react-icons/fa";
 import { Link as RouterLink } from "react-router-dom";
 
 import { Input } from "@chakra-ui/react";
-import { FaPaw } from "react-icons/fa";
+import { FaPaw, FaInstagram, FaTimes } from "react-icons/fa";
 
 const Navigation = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -55,7 +55,13 @@ const Navigation = () => {
         </Flex>
       </Flex>
 
-      <Box display={{ sm: "block", md: "block" }} mt={{ base: 4, md: 0 }}>
+      <Box display={{ sm: "block", md: "block" }} mt={{ base: 4, md: 0 }} ml="auto">
+        <Link as={RouterLink} to="/instagram" px={2} mr={4}>
+          <Icon as={FaInstagram} />
+        </Link>
+        <Link as={RouterLink} to="/close" px={2}>
+          <Icon as={FaTimes} />
+        </Link>
         <Link as={RouterLink} to="/" px={2}>
           Home
         </Link>
