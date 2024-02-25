@@ -3,7 +3,7 @@ import { Box, Heading, Text } from "@chakra-ui/react";
 
 const Pupology = () => {
   return (
-    <Box p={5}>
+    <Box p={5} pt={24}>
       <Heading as="h2" size="xl" mb={4}>
         Dog Breeds Information
       </Heading>
