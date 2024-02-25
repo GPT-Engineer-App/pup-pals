@@ -59,10 +59,13 @@ const Navigation = () => {
         <Link as={RouterLink} to="/" px={2}>
           Home
         </Link>
-        <Link as={RouterLink} to="/about" px={2}>
+        <Link as={RouterLink} to="/about" px={2} mr={4}>
           About
         </Link>
-        <Link as={RouterLink} to="/dogology" px={2}>
+        <Link as={RouterLink} to="/membership" px={2} mr={4}>
+          Membership
+        </Link>
+        <Link as={RouterLink} to="/dogology" px={2} mr={4}>
           Dogology
         </Link>
         <Link as={RouterLink} to="/faq" px={2} mr={4}>
