@@ -3,7 +3,9 @@ import { Box, Flex, Tab, TabList, TabPanel, TabPanels, Tabs, Text, FormControl, 
 
 function Account() {
   return (
-    <Flex>
+    <Flex mt="8">
+      {" "}
+      // Increased the margin-top to provide more space at the top of the page
       <Box width="250px" borderRight="1px" borderColor="gray.200" mb={8}>
         <Tabs orientation="vertical" align="start" mb={4}>
           <TabList align="start">
