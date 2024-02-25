@@ -27,20 +27,22 @@ const DogProfile = () => {
   };
 
   return (
-    <SimpleGrid columns={1} spacing={10} pt="6rem" m={4}>
-      <SimpleGrid columns={4} spacing={5} mb={5}>
-        <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
-        <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
-        <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
-        <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
-      </SimpleGrid>
-      <SimpleGrid columns={4} spacing={5}>
-        <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
-        <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
-        <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
-        <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
-      </SimpleGrid>
-      <VStack spacing={6} align="left">
+    <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt="6rem" m={4}>
+      <Box>
+        <SimpleGrid columns={2} spacing={5} mb={5}>
+          <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
+          <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
+          <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
+          <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
+        </SimpleGrid>
+        <SimpleGrid columns={2} spacing={5}>
+          <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
+          <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
+          <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
+          <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
+        </SimpleGrid>
+      </Box>
+      <VStack spacing={6} align="stretch">
         <Heading as="h2" size="xl">
           About Pup
         </Heading>
@@ -54,12 +56,6 @@ const DogProfile = () => {
         <Text fontSize="lg">Personality: Outgoing and playful, but can be stubborn at times</Text>
         <Text fontSize="lg">Availability: {dogDetails.availability}</Text>
       </VStack>
-      <Box textAlign="center">
-        <Link href="https://maps.google.com/?q=86+Blackheath+Road,+Greenwich+SE10+8DA,+United+Kingdom" isExternal fontSize="sm">
-          86 Blackheath Road, Greenwich SE10 8DA, United Kingdom
-        </Link>
-        <iframe width="100%" height="250" frameBorder="0" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?q=86+Blackheath+Road,+Greenwich+SE10+8DA,+United+Kingdom&t=&z=13&ie=UTF8&iwloc=&output=embed" title="Google Maps" aria-label="Google Maps"></iframe>
-      </Box>
     </SimpleGrid>
   );
 };
