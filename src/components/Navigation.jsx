@@ -62,6 +62,9 @@ const Navigation = () => {
         <Link as={RouterLink} to="/about" px={2} mr={4}>
           About
         </Link>
+        <Link as={RouterLink} to="/membership" px={2} mr={4}>
+          Membership
+        </Link>
 
         <Link as={RouterLink} to="/dogology" px={2} mr={4}>
           Dogology
