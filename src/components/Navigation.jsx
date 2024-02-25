@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { Box, Link, Flex, Heading, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton, Button, FormControl, Icon } from "@chakra-ui/react";
 import { FaApple } from "react-icons/fa";
 import { Link as RouterLink } from "react-router-dom";
@@ -8,6 +9,8 @@ import { FaPaw, FaInstagram, FaTimes } from "react-icons/fa";
 
 const Navigation = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
+
+  const navigate = useNavigate();
 
   return (
     <Flex as="nav" align="center" justify="space-between" wrap="wrap" padding="1.5rem" bg="teal.500" color="white">
@@ -33,8 +36,8 @@ const Navigation = () => {
                 w="full"
                 mb={3}
                 onClick={() => {
-                  onClose();
                   navigate("/account");
+                  onClose();
                 }}
               >
                 Log In
