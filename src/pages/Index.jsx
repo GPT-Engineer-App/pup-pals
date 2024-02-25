@@ -129,7 +129,7 @@ const Index = () => {
               Owner Sign Up
             </Heading>
             <Box flexShrink={0} mb={4}>
-              <Image borderRadius="lg" width={{ md: "40" }} src={"https://images.unsplash.com/photo-1583511655826-05700d52f4d9"} alt={"Man and woman couple in a park with their dog"} />
+              <Image borderRadius="lg" width={{ md: "40" }} src={"https://via.placeholder.com/150?text=Owner+And+Dog+Cartoon"} alt={"Cartoon image of a dog with its owner"} />
             </Box>
             <Text fontSize="lg" mb={4}>
               Connect with dog lovers who can take care of your pup while you're away. Sign up and create a profile for your dog.
