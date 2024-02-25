@@ -13,11 +13,11 @@ function BackgroundPattern() {
     setRandomColors(generatedColors);
   }, []);
 
-  const logos = Array.from({ length: 30 }).map((_, index) => ({
+  const logos = Array.from({ length: 100 }).map((_, index) => ({
     color: randomColors[index % randomColors.length],
-    top: `${Math.random() * 100}%`,
-    left: `${Math.random() * 100}%`,
-    transform: `scale(${Math.random() + 0.5})`,
+    top: `${(index % 10) * 10}%`,
+    left: `${Math.floor(index / 10) * 10}%`,
+    transform: `scale(${Math.random() + 0.5}) rotate(${Math.random() * 360}deg)`,
   }));
 
   return (
