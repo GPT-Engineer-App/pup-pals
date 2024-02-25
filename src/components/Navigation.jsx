@@ -41,8 +41,11 @@ const Navigation = () => {
         <Link as={RouterLink} to="/" px={2}>
           Home
         </Link>
-        <Link as={RouterLink} to="/about" px={2} mr={4}>
+        <Link as={RouterLink} to="/about" px={2}>
           About
+        </Link>
+        <Link as={RouterLink} to="/dogology" px={2} mr={4}>
+          Dogology
         </Link>
         <Link as={RouterLink} onClick={onOpen} px={2}>
           Log In
