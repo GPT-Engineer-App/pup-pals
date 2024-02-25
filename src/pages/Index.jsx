@@ -153,11 +153,11 @@ const Index = () => {
       </Box>
       <SimpleGrid columns={2} spacing={10} as="section" mb={12}>
         <Box>
-          <Box>
-            <Heading as="h2" size="xl" mb={4}>
+          <Box textAlign="center">
+            <Heading as="h2" size="xl" mb={4} textAlign="center">
               Owner Sign Up
             </Heading>
-            <Box flexShrink={0} mb={4}>
+            <Box flexShrink={0} mb={4} display="flex" justifyContent="center">
               <Image borderRadius="lg" width={{ md: "40" }} src={"https://via.placeholder.com/150?text=Owner+And+Dog+Cartoon"} alt={"Cartoon image of a dog with its owner"} />
             </Box>
             <Text fontSize="lg" mb={4}>
