@@ -123,7 +123,7 @@ const Index = () => {
         <Box>
           <Flex direction={{ base: "column", md: "row" }} align="center">
             <Box flexShrink={0} mt={{ base: 4, md: 0 }} mb={{ base: 4, md: 0 }} mr={{ md: 6 }}>
-              <Image borderRadius="lg" width={{ md: "40" }} src={"https://images.unsplash.com/photo-1583511655826-05700d52f4d9"} alt={"Couple with a dog"} />
+              <Image borderRadius="lg" width={{ md: "40" }} src={"https://images.unsplash.com/photo-1529778873920-4da4926a72c2"} alt={"Man and woman couple with a dog"} />
             </Box>
             <Box>
               <Heading as="h2" size="xl" mb={4}>
