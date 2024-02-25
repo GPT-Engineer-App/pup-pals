@@ -23,9 +23,6 @@ const Footer = () => {
       <Link as={RouterLink} to="/cookies" mr={4}>
         Cookie Policy
       </Link>
-      <Link as={RouterLink} to="/press" mr={4}>
-        Contact
-      </Link>
     </Flex>
   );
 };
