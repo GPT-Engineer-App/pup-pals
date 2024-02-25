@@ -19,8 +19,8 @@ const DogProfile = () => {
       <Box borderWidth="1px" borderRadius="lg" overflow="hidden" w={{ md: "50%" }}>
         <Image src={buddyImageUrl} alt={`Picture of Buddy`} />
       </Box>
-      <VStack spacing={4} align="stretch" mt={{ base: 6, md: 0 }} ml={{ md: 6 }}>
-        <Text fontSize="2xl" fontWeight="bold">
+      <VStack spacing={6} align="left" mt={{ base: 6, md: 0 }} ml={{ md: 6 }}>
+        <Text fontSize="2xl" fontWeight="extrabold">
           {dogDetails.name}
         </Text>
         <Text fontSize="lg">Age: {dogDetails.age}</Text>
