@@ -48,8 +48,11 @@ const Navigation = () => {
         <Link as={RouterLink} to="/about" px={2}>
           About
         </Link>
-        <Link as={RouterLink} to="/dogology" px={2} mr={4}>
+        <Link as={RouterLink} to="/dogology" px={2}>
           Dogology
+        </Link>
+        <Link as={RouterLink} to="/faq" px={2} mr={4}>
+          FAQ
         </Link>
         <Link as={RouterLink} onClick={onOpen} px={2}>
           Log In
