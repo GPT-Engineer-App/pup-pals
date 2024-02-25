@@ -22,7 +22,7 @@ const Membership = () => {
           </Heading>
           <Text>Details of basic membership...</Text>
         </Box>
-        <Box borderWidth="1px" borderRadius="lg" overflow="hidden" p={6}>
+        <Box borderWidth="1px" borderRadius="lg" overflow="hidden" pt={10} p={6}>
           <Text fontSize="xl" fontWeight="bold" mb={2}>
             150 AED
           </Text>
