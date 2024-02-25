@@ -28,9 +28,16 @@ const Navigation = () => {
               <Button colorScheme="blue" w="full" mb={3} onClick={onClose}>
                 Close
               </Button>
-              <Button variant="ghost" w="full" mb={3}>
+              <Button variant="ghost" w="full" mb={3} mt={3}>
                 Log In
               </Button>
+              <Flex align="center" my={3}>
+                <Box flex="1" borderTop="1px solid" borderColor="gray.300" />
+                <Box px={2} bg="white">
+                  OR
+                </Box>
+                <Box flex="1" borderTop="1px solid" borderColor="gray.300" />
+              </Flex>
               <Button w="full" colorScheme="blackAlpha" leftIcon={<Icon as={FaApple} />}>
                 Sign in with Apple
               </Button>
