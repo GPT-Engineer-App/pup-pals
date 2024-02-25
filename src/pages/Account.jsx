@@ -6,7 +6,7 @@ function Account() {
     <Flex>
       <Box width="250px" borderRight="1px" borderColor="gray.200">
         <Tabs orientation="vertical" align="start">
-          <TabList>
+          <TabList align="start">
             <Tab>Details</Tab>
             <Tab>Security</Tab>
             <Tab>Notification Settings</Tab>
