@@ -7,7 +7,7 @@ const OwnerSignUp = () => {
       <Heading as="h2" size="xl" mb={6}>
         Owner Sign Up
       </Heading>
-      <Box borderWidth="1px" rounded="lg" overflow="hidden" p={6}>
+      <Box borderWidth="1px" rounded="lg" overflow="hidden" p={6} bg="gray.100">
         <form>
           <FormControl id="owner-first-name" isRequired>
             <FormLabel>First Name</FormLabel>
