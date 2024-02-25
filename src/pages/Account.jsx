@@ -5,7 +5,7 @@ function Account() {
   return (
     <Flex>
       <Box width="250px" borderRight="1px" borderColor="gray.200">
-        <Tabs orientation="vertical" align="start">
+        <Tabs orientation="vertical" align="start" mb={4}>
           <TabList align="start">
             <Tab>Details</Tab>
             <Tab>Password</Tab>
