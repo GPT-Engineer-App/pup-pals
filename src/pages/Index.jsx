@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Container, Heading, SimpleGrid, Text, Image, Stack, Badge, Button, useColorModeValue } from "@chakra-ui/react";
+import { Box, Container, Heading, SimpleGrid, Text, Image, Stack, Badge, Button, useColorModeValue, Flex } from "@chakra-ui/react";
 import { FaPaw } from "react-icons/fa";
 
 // Sample data for dog profiles
@@ -121,15 +121,22 @@ const Index = () => {
       </Box>
       <SimpleGrid columns={2} spacing={10} as="section" mb={12}>
         <Box>
-          <Heading as="h2" size="xl" mb={4}>
-            Owner Sign Up
-          </Heading>
-          <Text fontSize="lg" mb={4}>
-            Do you have a pup that needs companionship? Sign up as an owner and let our community of friends borrow your pup.
-          </Text>
-          <Button colorScheme="teal" size="lg">
-            Sign Up as Owner
-          </Button>
+          <Flex direction={{ base: "column", md: "row" }} align="center">
+            <Box flexShrink={0} mt={{ base: 4, md: 0 }} mb={{ base: 4, md: 0 }} mr={{ md: 6 }}>
+              <Image borderRadius="lg" width={{ md: "40" }} src={"https://images.unsplash.com/photo-1583511655826-05700d52f4d9"} alt={"Couple with a dog"} />
+            </Box>
+            <Box>
+              <Heading as="h2" size="xl" mb={4}>
+                Owner Sign Up
+              </Heading>
+              <Text fontSize="lg" mb={4}>
+                Do you have a pup that needs companionship? Sign up as an owner and let our community of friends borrow your pup.
+              </Text>
+              <Button colorScheme="teal" size="lg">
+                Sign Up as Owner
+              </Button>
+            </Box>
+          </Flex>
         </Box>
         <Box>
           <Heading as="h2" size="xl" mb={4}>
