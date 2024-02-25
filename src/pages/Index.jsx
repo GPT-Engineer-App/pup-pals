@@ -168,11 +168,11 @@ const Index = () => {
             </Button>
           </Box>
         </Box>
-        <Box>
-          <Heading as="h2" size="xl" mb={4}>
+        <Box textAlign="center">
+          <Heading as="h2" size="xl" mb={4} textAlign="center">
             Pal Sign Up
           </Heading>
-          <Box flexShrink={0} mb={4}>
+          <Box flexShrink={0} mb={4} display="flex" justifyContent="center">
             <Image borderRadius="lg" width={{ md: "40" }} src={"https://via.placeholder.com/150"} alt={"People"} />
           </Box>
           <Text fontSize="lg" mb={4}>
