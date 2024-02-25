@@ -77,8 +77,8 @@ const Navigation = () => {
           Membership
         </Link>
 
-        <Link as={RouterLink} to="/dogology" px={2} mr={4}>
-          Dogology
+        <Link as={RouterLink} to="/pupology" px={2} mr={4}>
+          Pupology
         </Link>
         <Link as={RouterLink} to="/faq" px={2} mr={4}>
           FAQ
