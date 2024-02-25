@@ -15,7 +15,7 @@ const DogProfile = () => {
     needs: "Special diet",
     likes: ["Playing fetch", "Cuddles"],
     availability: "Weekends and evenings",
-    images: ["https://images.unsplash.com/photo-1", "https://images.unsplash.com/photo-2", "https://images.unsplash.com/photo-3", "https://images.unsplash.com/photo-4", "https://images.unsplash.com/photo-5"],
+    images: ["https://images.unsplash.com/photo-1", "https://images.unsplash.com/photo-2", "https://images.unsplash.com/photo-3", "https://images.unsplash.com/photo-4", "https://images.unsplash.com/photo-1612774412771-005ed8e861d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxnb2xkZW4lMjByZXRyaWV2ZXJ8ZW58MHx8fHwxNzA4ODg0NTE3fDA&ixlib=rb-4.0.3&q=80&w=1080"],
   };
 
   const prevImage = () => {
