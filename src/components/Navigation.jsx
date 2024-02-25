@@ -1,8 +1,9 @@
 import React from "react";
-import { Box, Link, Flex, Heading, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton, Button, FormControl } from "@chakra-ui/react";
+import { Box, Link, Flex, Heading, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton, Button, FormControl, Icon } from "@chakra-ui/react";
+import { FaApple } from "react-icons/fa";
 import { Link as RouterLink } from "react-router-dom";
 
-import { Input, Icon } from "@chakra-ui/react";
+import { Input } from "@chakra-ui/react";
 import { FaPaw } from "react-icons/fa";
 
 const Navigation = () => {
@@ -30,7 +31,7 @@ const Navigation = () => {
               <Button variant="ghost" w="full" mb={3}>
                 Log In
               </Button>
-              <Button w="full" colorScheme="blackAlpha">
+              <Button w="full" colorScheme="blackAlpha" leftIcon={<Icon as={FaApple} />}>
                 Sign in with Apple
               </Button>
             </ModalFooter>
