@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Image, SimpleGrid, Text, VStack, Heading, Link, Flex, Button } from "@chakra-ui/react";
+import { Box, Image, SimpleGrid, Text, VStack, Heading, Input } from "@chakra-ui/react";
 import { useParams } from "react-router-dom";
 
 const buddyImageUrl = "https://images.unsplash.com/photo-1612774412771-005ed8e861d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxnb2xkZW4lMjByZXRyaWV2ZXJ8ZW58MHx8fHwxNzA4ODg0NTE3fDA&ixlib=rb-4.0.3&q=80&w=1080";
@@ -30,8 +30,14 @@ const DogProfile = () => {
     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt="6rem" m={4}>
       <Box>
         <SimpleGrid columns={2} spacing={5} mb={5}>
-          <Image src="https://via.placeholder.com/100" alt="Placeholder image" height="100px" width="100px" />
-          <Image src="https://via.placeholder.com/100" alt="Placeholder image" height="100px" width="100px" />
+          <Box>
+            <Image src="https://via.placeholder.com/100" alt="Placeholder image" height="100px" width="100px" />
+            <Input type="file" accept="image/*" />
+          </Box>
+          <Box>
+            <Image src="https://via.placeholder.com/100" alt="Placeholder image" height="100px" width="100px" />
+            <Input type="file" accept="image/*" />
+          </Box>
         </SimpleGrid>
       </Box>
       <VStack spacing={6} align="stretch">
