@@ -20,7 +20,7 @@ function Account() {
           <TabPanels>
             <TabPanel>
               <form>
-                <FormControl id="details-first-name" isRequired>
+                <FormControl id="details-first-name" mt={4} isRequired>
                   <FormLabel>First Name</FormLabel>
                   <Input placeholder="First Name" />
                 </FormControl>
