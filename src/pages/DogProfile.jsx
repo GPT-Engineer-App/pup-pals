@@ -15,11 +15,11 @@ const DogProfile = () => {
   };
 
   return (
-    <Flex direction="column" align="center" m={4}>
-      <Box borderWidth="1px" borderRadius="lg" overflow="hidden">
+    <Flex direction={{ base: "column", md: "row" }} align="center" m={4}>
+      <Box borderWidth="1px" borderRadius="lg" overflow="hidden" w={{ md: "50%" }}>
         <Image src={buddyImageUrl} alt={`Picture of Buddy`} />
       </Box>
-      <VStack spacing={4} align="stretch" mt={6}>
+      <VStack spacing={4} align="stretch" mt={{ base: 6, md: 0 }} ml={{ md: 6 }}>
         <Text fontSize="2xl" fontWeight="bold">
           {dogDetails.name}
         </Text>
