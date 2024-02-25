@@ -15,7 +15,7 @@ const DogProfile = () => {
     needs: "Special diet",
     likes: ["Playing fetch", "Cuddles"],
     availability: "Weekends and evenings",
-    images: ["https://images.unsplash.com/photo-1", "https://images.unsplash.com/photo-2", "https://images.unsplash.com/photo-3"],
+    images: ["https://images.unsplash.com/photo-1", "https://images.unsplash.com/photo-2", "https://images.unsplash.com/photo-3", "https://images.unsplash.com/photo-4", "https://images.unsplash.com/photo-5"],
   };
 
   const prevImage = () => {
