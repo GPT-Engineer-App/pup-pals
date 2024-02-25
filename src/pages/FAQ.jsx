@@ -3,7 +3,7 @@ import { Box, Heading, Accordion, AccordionItem, AccordionButton, AccordionPanel
 
 function FAQ() {
   return (
-    <Box p={4} pt={12}>
+    <Box p={4} pt={24}>
       <Heading as="h1" size="xl" mb={6}>
         Frequently Asked Questions
       </Heading>
