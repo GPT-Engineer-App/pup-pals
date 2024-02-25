@@ -28,9 +28,10 @@ const Navigation = () => {
               <Button colorScheme="blue" w="full" mb={3} onClick={onClose}>
                 Close
               </Button>
-              <Button variant="ghost" w="full" mb={3} mt={3}>
+              <Button variant="ghost" w="full" mb={3}>
                 Log In
               </Button>
+              <Box flex="1" borderTop="1px solid" borderColor="gray.500" my={3} />
               <Flex align="center" my={3}>
                 <Box flex="1" borderTop="1px solid" borderColor="gray.500" />
                 <Box px={2} bg="white">
