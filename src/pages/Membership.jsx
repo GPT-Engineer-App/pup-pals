@@ -3,7 +3,15 @@ import { Box, SimpleGrid, Heading, Text } from "@chakra-ui/react";
 
 const Membership = () => {
   return (
-    <Box pt="6rem" p={4}>
+    <Box pt="6rem" p={4} mb={10}>
+      <Box mb={10}>
+        <Heading as="h2" size="xl" mb={4}>
+          Why Go Premium
+        </Heading>
+        <Text fontSize="lg" mb={4}>
+          Unlock all the benefits of the premium membership including unlimited borrowing, access to exclusive events, and more!
+        </Text>
+      </Box>
       <SimpleGrid columns={2} spacing={10}>
         <Box borderWidth="1px" borderRadius="lg" overflow="hidden" p={6}>
           <Text fontSize="xl" fontWeight="bold" mb={2}>
