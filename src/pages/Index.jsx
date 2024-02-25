@@ -121,19 +121,11 @@ const Index = () => {
       </Box>
       <SimpleGrid columns={2} spacing={10} as="section" mb={12}>
         <Box>
-          <Flex direction={{ base: "column-reverse", md: "row" }} align="center">
-            <Box>
-              <Heading as="h2" size="xl" mb={4}>
-                Owner Sign Up
-              </Heading>
-              <Text fontSize="lg" mb={4}>
-                Do you have a pup that needs companionship? Sign up as an owner and let our community of friends borrow your pup.
-              </Text>
-              <Button colorScheme="teal" size="lg" mb={{ base: 4, md: 0 }}>
-                Sign Up as Owner
-              </Button>
-            </Box>
-            <Box flexShrink={0} mt={{ base: 4, md: 0 }} mr={{ md: 6 }}>
+          <Flex direction={{ base: "column", md: "column" }} align="center">
+            <Heading as="h2" size="xl" mb={4}>
+              Owner Sign Up
+            </Heading>
+            <Box flexShrink={0} mb={4}>
               <Image borderRadius="lg" width={{ md: "40" }} src={"https://images.unsplash.com/photo-1583511655826-05700d52f4d9"} alt={"Man and woman couple in a park with their dog"} />
             </Box>
           </Flex>
