@@ -32,7 +32,12 @@ const DogProfile = () => {
         <Text fontSize="lg">Dislikes: Good with children but nervous around cats</Text>
         <Text fontSize="lg">Personality: Outgoing and playful, but can be stubborn at times</Text>
         <Text fontSize="lg">Availability: {dogDetails.availability}</Text>
+        <Text fontSize="lg">Availability: {dogDetails.availability}</Text>
       </VStack>
+      <Box textAlign="center" mt={{ base: 6, md: 0 }} w="full">
+        <Text fontSize="sm">1234 Pup St, Dogtown, DT 01234</Text>
+        <iframe width="100%" height="250" frameBorder="0" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?q=1234%20Pup%20St,%20Dogtown,%20DT%2001234&t=&z=13&ie=UTF8&iwloc=&output=embed" title="Google Maps" aria-label="Google Maps"></iframe>
+      </Box>
     </Flex>
   );
 };
