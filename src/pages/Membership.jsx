@@ -3,7 +3,7 @@ import { Box, SimpleGrid, Heading, Text } from "@chakra-ui/react";
 
 const Membership = () => {
   return (
-    <Box pt="14rem" p={4} mb={10}>
+    <Box pt="20rem" p={4} mb={10}>
       <Box mb={10}>
         <Heading as="h2" size="xl" mb={4}>
           Why Go Premium
