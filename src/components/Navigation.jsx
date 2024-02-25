@@ -2,7 +2,8 @@ import React from "react";
 import { Box, Link, Flex, Heading, useDisclosure, Modal, ModalOverlay, ModalContent, ModalHeader, ModalFooter, ModalBody, ModalCloseButton, Button, FormControl } from "@chakra-ui/react";
 import { Link as RouterLink } from "react-router-dom";
 
-import { Input } from "@chakra-ui/react";
+import { Input, Icon } from "@chakra-ui/react";
+import { FaPaw } from "react-icons/fa";
 
 const Navigation = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -32,9 +33,12 @@ const Navigation = () => {
         </Modal>
       </>
       <Flex align="center" mr={5}>
-        <Heading as="h1" size="lg" letterSpacing={"tighter"}>
-          Pup Pals
-        </Heading>
+        <Flex align="center" mr={5}>
+          <Icon as={FaPaw} w={8} h={8} mr={2} />
+          <Heading as="h1" size="lg" letterSpacing={"tighter"}>
+            Pup Pals
+          </Heading>
+        </Flex>
       </Flex>
 
       <Box display={{ sm: "block", md: "block" }} mt={{ base: 4, md: 0 }}>
