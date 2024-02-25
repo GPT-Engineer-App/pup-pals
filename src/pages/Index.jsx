@@ -118,21 +118,38 @@ const Index = () => {
         <Heading as="h2" size="xl" mb={4}>
           How it Works
         </Heading>
-        <Heading as="h3" size="lg" mb={2}>
-          Sign up for Free
-        </Heading>
-        <Heading as="h3" size="lg" mb={2}>
-          Browse Profiles
-        </Heading>
-        <Heading as="h3" size="lg" mb={2}>
-          Select Your Favorite
-        </Heading>
-        <Heading as="h3" size="lg" mb={2}>
-          Message
-        </Heading>
-        <Heading as="h3" size="lg" mb={2}>
-          Meet Up
-        </Heading>
+        <SimpleGrid columns={{ base: 1, md: 5 }} spacing={10}>
+          <Box textAlign="center">
+            <Heading as="h3" size="lg" mb={2}>
+              Sign up for Free
+            </Heading>
+            <Text>Register and create a profile at no cost.</Text>
+          </Box>
+          <Box textAlign="center">
+            <Heading as="h3" size="lg" mb={2}>
+              Browse Profiles
+            </Heading>
+            <Text>Explore the various dog profiles available.</Text>
+          </Box>
+          <Box textAlign="center">
+            <Heading as="h3" size="lg" mb={2}>
+              Select Your Favorite
+            </Heading>
+            <Text>Choose the dog that you connect with the most.</Text>
+          </Box>
+          <Box textAlign="center">
+            <Heading as="h3" size="lg" mb={2}>
+              Message
+            </Heading>
+            <Text>Get in touch with the dog owner to arrange a meet-up.</Text>
+          </Box>
+          <Box textAlign="center">
+            <Heading as="h3" size="lg" mb={2}>
+              Meet Up
+            </Heading>
+            <Text>Meet the dog and enjoy your time together.</Text>
+          </Box>
+        </SimpleGrid>
       </Box>
       <SimpleGrid columns={2} spacing={10} as="section" mb={12}>
         <Box>
