@@ -3,7 +3,7 @@ import { Box, Container, Heading, Text } from "@chakra-ui/react";
 
 const About = () => {
   return (
-    <Container maxW={"7xl"} p={12}>
+    <Container maxW={"7xl"} p={12} pt={28}>
       <Heading as="h1" mb={6}>
         About Us
       </Heading>
