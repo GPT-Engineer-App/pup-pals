@@ -30,8 +30,8 @@ const DogProfile = () => {
     <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} pt="6rem" m={4}>
       <Box>
         <SimpleGrid columns={2} spacing={5} mb={5}>
-          <Image src="https://via.placeholder.com/75" alt="Placeholder image" height="75px" width="75px" />
-          <Image src="https://via.placeholder.com/75" alt="Placeholder image" height="75px" width="75px" />
+          <Image src="https://via.placeholder.com/100" alt="Placeholder image" height="100px" width="100px" />
+          <Image src="https://via.placeholder.com/100" alt="Placeholder image" height="100px" width="100px" />
         </SimpleGrid>
       </Box>
       <VStack spacing={6} align="stretch">
