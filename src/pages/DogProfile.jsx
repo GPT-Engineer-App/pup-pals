@@ -39,19 +39,6 @@ const DogProfile = () => {
         <Text fontSize="lg">Personality: Outgoing and playful, but can be stubborn at times</Text>
         <Text fontSize="lg">Availability: {dogDetails.availability}</Text>
       </VStack>
-
-      <Box textAlign="center" mt={{ base: 6, md: 0 }} w="full">
-        <Link href="https://maps.google.com/?q=86+Blackheath+Road,+Greenwich+SE10+8DA,+United+Kingdom" isExternal fontSize="sm">
-          86 Blackheath Road, Greenwich SE10 8DA, United Kingdom
-        </Link>
-        <iframe width="100%" height="250" frameBorder="0" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?q=86+Blackheath+Road,+Greenwich+SE10+8DA,+United+Kingdom&t=&z=13&ie=UTF8&iwloc=&output=embed" title="Google Maps" aria-label="Google Maps"></iframe>
-      </Box>
-      <Box textAlign="center" mt={{ base: 6, md: 0 }} w="full">
-        <Link href="https://maps.google.com/?q=86+Blackheath+Road,+Greenwich+SE10+8DA,+United+Kingdom" isExternal fontSize="sm">
-          86 Blackheath Road, Greenwich SE10 8DA, United Kingdom
-        </Link>
-        <iframe width="100%" height="250" frameBorder="0" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?q=86+Blackheath+Road,+Greenwich+SE10+8DA,+United+Kingdom&t=&z=13&ie=UTF8&iwloc=&output=embed" title="Google Maps" aria-label="Google Maps"></iframe>
-      </Box>
     </Flex>
   );
 };
