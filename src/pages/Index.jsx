@@ -141,7 +141,7 @@ const Index = () => {
             <Heading as="h3" size="lg" mb={2}>
               Message
             </Heading>
-            <Text>Premium Pals can get in touch with Owners to arrange meet up.</Text>
+            <Text>Contact dog owners to arrange a meeting.</Text>
           </Box>
           <Box textAlign="center">
             <Heading as="h3" size="lg" mb={2}>
