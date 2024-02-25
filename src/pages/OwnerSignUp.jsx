@@ -3,11 +3,11 @@ import { Box, Container, Heading, FormControl, FormLabel, Input, Button } from "
 
 const OwnerSignUp = () => {
   return (
-    <Container maxW="lg" py={12} display="flex" flexDirection="column" alignItems="center">
+    <Container maxW="lg" py={12}>
       <Heading as="h2" size="xl" mb={6}>
         Owner Sign Up
       </Heading>
-      <Box borderWidth="1px" rounded="lg" overflow="hidden" p={6} bg="gray.100">
+      <Box borderWidth="1px" rounded="lg" overflow="hidden" p={6}>
         <form>
           <FormControl id="owner-first-name" isRequired>
             <FormLabel>First Name</FormLabel>

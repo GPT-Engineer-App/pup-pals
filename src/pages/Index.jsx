@@ -183,7 +183,7 @@ const Index = () => {
           </Button>
         </Box>
       </SimpleGrid>
-      <Heading as="h1" mt={12} mb={12} textAlign="center">
+      <Heading as="h1" mt={12} mb={12}>
         Pup Profiles
       </Heading>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>

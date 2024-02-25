@@ -3,7 +3,7 @@ import { Box, Heading, Text, Button, FormControl, FormLabel, Input } from "@chak
 
 function PalSignUp() {
   return (
-    <Box padding="4" maxW="3xl" mx="auto" display="flex" flexDirection="column" alignItems="center" bg="gray.100">
+    <Box padding="4" maxW="3xl" mx="auto">
       <Heading as="h1" size="xl" textAlign="center" mb="8">
         Pal Sign Up
       </Heading>
