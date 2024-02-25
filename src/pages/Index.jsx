@@ -138,7 +138,7 @@ const Index = () => {
         </Box>
         <Box>
           <Heading as="h2" size="xl" mb={4}>
-            Friend Sign Up
+            Pal Sign Up
           </Heading>
           <Box flexShrink={0} mb={4}>
             <Image borderRadius="lg" width={{ md: "40" }} src={"https://via.placeholder.com/150"} alt={"People"} />
@@ -147,7 +147,7 @@ const Index = () => {
             Looking to spend time with a pup? Sign up as a friend and start borrowing pups from our community of owners.
           </Text>
           <Button colorScheme="teal" size="lg">
-            Sign Up as Friend
+            Sign Up as Pal
           </Button>
         </Box>
       </SimpleGrid>
