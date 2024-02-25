@@ -111,6 +111,14 @@ const DogCard = ({ dog }) => {
 const Index = () => {
   return (
     <Container maxW={"7xl"} p={12}>
+      <Box as="section" mb={12}>
+        <Heading as="h2" size="xl" mb={4}>
+          How it Works
+        </Heading>
+        <Text fontSize="lg" mb={4}>
+          Discover your perfect pup pal in just a few easy steps. Browse through our profiles, select your favorite, and arrange a time to meet your new furry friend.
+        </Text>
+      </Box>
       <Heading as="h1" mb={12}>
         Pup Profiles
       </Heading>
