@@ -114,7 +114,8 @@ const DogCard = ({ dog }) => {
 const Index = () => {
   return (
     <Container maxW={"7xl"} p={12}>
-      <Box as="section" mb={12}>
+      <Image src="https://images.unsplash.com/photo-1517423440428-a5a00ad493e8" alt="Dog in a park" objectFit="cover" width="full" height={{ base: "200px", md: "400px" }} mb={8} />
+      <Box as="section" pt={12} mb={12}>
         <Heading as="h2" size="xl" mb={4}>
           How it Works
         </Heading>
