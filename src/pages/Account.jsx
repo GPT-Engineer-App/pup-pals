@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Flex, Tab, TabList, TabPanel, TabPanels, Tabs, Text } from "@chakra-ui/react";
+import { Box, Flex, Tab, TabList, TabPanel, TabPanels, Tabs, Text, FormControl, FormLabel, Input, Button } from "@chakra-ui/react";
 
 function Account() {
   return (
@@ -19,7 +19,27 @@ function Account() {
         <Tabs orientation="vertical" isFitted>
           <TabPanels>
             <TabPanel>
-              <Text fontSize="2xl">Details Content</Text>
+              <form>
+                <FormControl id="details-first-name" isRequired>
+                  <FormLabel>First Name</FormLabel>
+                  <Input placeholder="First Name" />
+                </FormControl>
+                <FormControl id="details-last-name" mt={4} isRequired>
+                  <FormLabel>Last Name</FormLabel>
+                  <Input placeholder="Last Name" />
+                </FormControl>
+                <FormControl id="details-email" mt={4} isRequired>
+                  <FormLabel>Email</FormLabel>
+                  <Input type="email" placeholder="email@example.com" />
+                </FormControl>
+                <FormControl id="details-phone-number" mt={4} isRequired>
+                  <FormLabel>Phone Number</FormLabel>
+                  <Input type="tel" placeholder="+1234567890" />
+                </FormControl>
+                <Button width="full" mt={4} colorScheme="blue" type="submit">
+                  Save Changes
+                </Button>
+              </form>
             </TabPanel>
             <TabPanel>
               <Text fontSize="2xl">Security Content</Text>
