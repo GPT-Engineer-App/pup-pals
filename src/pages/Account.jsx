@@ -9,9 +9,9 @@ function Account() {
           <TabList align="start">
             <Tab>Details</Tab>
             <Tab>Password</Tab>
-            <Tab>Notification Settings</Tab>
-            <Tab>My Membership</Tab>
-            <Tab>Payment Details</Tab>
+            <Tab>Notifications</Tab>
+            <Tab>Membership</Tab>
+            <Tab>Payment</Tab>
           </TabList>
         </Tabs>
       </Box>
