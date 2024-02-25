@@ -28,16 +28,19 @@ const DogProfile = () => {
 
   return (
     <SimpleGrid columns={1} spacing={10} m={4}>
-      <Flex justifyContent="center" alignItems="center">
-        <Button onClick={prevImage} disabled={currentImageIndex === 0}>
-          {"<"}
-        </Button>
-        <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
-          <Image src={dogDetails.images[currentImageIndex]} alt={`Picture of ${dogDetails.name}`} />
-        </Box>
-        <Button onClick={nextImage} disabled={currentImageIndex === dogDetails.images.length - 1}>
-          {">"}
-        </Button>
+      <Flex justifyContent="center" alignItems="center" direction="column">
+        <Image src={buddyImageUrl} alt={`Picture of ${dogDetails.name}`} boxSize="200px" objectFit="cover" borderRadius="full" mb={4} />
+        <Flex justifyContent="space-between" width="100%">
+          <Button onClick={prevImage} disabled={currentImageIndex === 0}>
+            {"<"}
+          </Button>
+          <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
+            <Image src={dogDetails.images[currentImageIndex]} alt={`Picture of ${dogDetails.name}`} />
+          </Box>
+          <Button onClick={nextImage} disabled={currentImageIndex === dogDetails.images.length - 1}>
+            {">"}
+          </Button>
+        </Flex>
       </Flex>
       <VStack spacing={6} align="left">
         <Heading as="h2" size="xl">
