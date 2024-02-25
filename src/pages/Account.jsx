@@ -3,7 +3,7 @@ import { Box, Flex, Tab, TabList, TabPanel, TabPanels, Tabs, Text, FormControl, 
 
 function Account() {
   return (
-    <Flex align="start" p={8}>
+    <Flex align="start" p={8} mt={10}>
       <Box width="250px" borderRight="1px" borderColor="gray.200">
         <Tabs orientation="vertical" align="start" mb={4}>
           <TabList align="start">
