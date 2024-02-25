@@ -81,6 +81,8 @@ const DogCard = ({ dog }) => {
             flex={1}
             fontSize={"sm"}
             rounded={"full"}
+            as={Link}
+            to={`/dog-profile/${dog.id}`}
             _focus={{
               bg: "gray.200",
             }}
