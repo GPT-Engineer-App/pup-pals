@@ -32,14 +32,6 @@ const DogProfile = () => {
         <SimpleGrid columns={2} spacing={5} mb={5}>
           <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
           <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
-          <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
-          <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
-        </SimpleGrid>
-        <SimpleGrid columns={2} spacing={5}>
-          <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
-          <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
-          <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
-          <Image src="https://via.placeholder.com/150" alt="Placeholder image" />
         </SimpleGrid>
       </Box>
       <VStack spacing={6} align="stretch">
