@@ -3,7 +3,7 @@ import { Box, SimpleGrid, Heading, Text } from "@chakra-ui/react";
 
 const Membership = () => {
   return (
-    <Box pt={144} p={4}>
+    <Box pt="6rem" p={4}>
       <SimpleGrid columns={2} spacing={10}>
         <Box borderWidth="1px" borderRadius="lg" overflow="hidden" p={6}>
           <Text fontSize="xl" fontWeight="bold" mb={2}>
