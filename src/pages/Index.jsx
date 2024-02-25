@@ -112,7 +112,7 @@ const Index = () => {
   return (
     <Container maxW={"7xl"} p={12}>
       <Heading as="h1" mb={6}>
-        Dog Borrowing Website
+        Pup Profiles
       </Heading>
       <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
         {dogs.map((dog) => (
